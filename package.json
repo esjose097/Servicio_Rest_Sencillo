@@ -1,0 +1,28 @@
+{
+  "name": "servicio_rest_sencillo",
+  "version": "1.0.0",
+  "description": "Asignación de la materia de \"Sistemas distribuidos\" del equipo: \"La comunidad del anillo\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esjose097/Servicio_Rest_Sencillo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esjose097/Servicio_Rest_Sencillo/issues"
+  },
+  "homepage": "https://github.com/esjose097/Servicio_Rest_Sencillo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-myconnection": "^1.0.4",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
