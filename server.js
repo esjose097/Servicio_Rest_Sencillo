@@ -1,5 +1,6 @@
 const exp = require('express')
 const app = exp()
+const mysql = require('mysql')
 const myconn = require("express-myconnection")
 
 const routes= require('./routes')
@@ -13,10 +14,9 @@ const BDOptions= {
     database: 'cine'
 }
 
-
 //middlewares
 app.use(myconn(mysql, BDOptions, 'single'))
-app.use(express.json())
+app.use(exp.json())
 
 //routes
 app.get('/', (req, res) =>{
