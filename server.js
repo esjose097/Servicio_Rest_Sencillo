@@ -25,7 +25,7 @@ app.get('/', (req, res) =>{
 
 app.use('/api', routes)
 
-//server corriendo la laguna del nainari
+//server corriendo hacia la laguna del nainari
 app.listen(app.get('port'), () =>{
     console.log('El servidor está corriendo en el puerto', app.get('port'))
 })
